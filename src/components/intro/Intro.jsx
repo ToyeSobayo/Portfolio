@@ -1,5 +1,5 @@
 import "./intro.css"
-
+import Me from "../../img/Nah.gif"
 import React from 'react'
 
 const Intro = () => {
@@ -17,9 +17,15 @@ const Intro = () => {
            <div className = "i-title-item">LeetCode Warrior</div>
           </div>
          </div>
+         <div className = "i-description">
+          description
+         </div>
         </div>
       </div>
-      <div className = "i-right">right</div>
+      <div className = "i-right">
+        <div className = "i-bg"></div>
+        <img src = {Me} alt = "" className = "i-img" />
+      </div>
     </div>
   )
 }
